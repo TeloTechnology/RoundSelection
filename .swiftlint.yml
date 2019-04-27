@@ -1,0 +1,41 @@
+disabled_rules:
+  - identifier_name
+  - attributes
+  - multiline_function_chains
+  - first_where
+  - function_parameter_count
+  - cyclomatic_complexity
+  - function_body_length
+  - line_length
+  - file_length
+  - nesting
+  - type_name
+opt_in_rules:
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - contains_over_first_not_nil
+  - convenience_type
+  - discouraged_optional_boolean
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - literal_expression_end_indentation
+  - operator_usage_whitespace
+  - overridden_super_call
+  - prefixed_toplevel_constant
+  - private_action
+  - private_outlet
+  - redundant_nil_coalescing
+  - unneeded_parentheses_in_closure_argument
+excluded: 
+  - Carthage
+  - Pods
+  - Tests
+  - UITests
+trailing_whitespace:
+  ignores_empty_lines: true
+line_length:
+  warning: 180

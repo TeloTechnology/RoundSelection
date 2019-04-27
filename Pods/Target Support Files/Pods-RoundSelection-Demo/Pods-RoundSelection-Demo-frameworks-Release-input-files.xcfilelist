@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-RoundSelection-Demo/Pods-RoundSelection-Demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
