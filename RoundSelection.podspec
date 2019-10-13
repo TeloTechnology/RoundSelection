@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "rudiluis" => "rudi.luis@telotechnology.com" }
   spec.social_media_url   = "https://www.instagram.com/telotechnology/"
 
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "11.0"
   spec.swift_version = "5"
 
   spec.source       = { :git => "https://github.com/TeloTechnology/RoundSelection.git", :tag => "#{spec.version}" }
