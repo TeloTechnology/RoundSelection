@@ -9,8 +9,7 @@
 
 This RoundSelection library helps you to do round selection.
 
-<img src="Images/example1.png" width="200">
-<img src="Images/example2.png" width="200">
+<img src="Images/example1.png" width="200"> <img src="Images/example2.png" width="200">
 
 ## Features
 
