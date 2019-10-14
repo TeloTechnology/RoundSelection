@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://telotechnology.com"
  
   spec.license      = "MIT"
-  spec.author             = { "rudiluis" => "rudi.luis@telotechnology.com" }
+  spec.author             = { "Rudi Luis" => "rudi.luis@telotechnology.com" }
   spec.social_media_url   = "https://www.instagram.com/telotechnology/"
 
   spec.ios.deployment_target = "11.0"
