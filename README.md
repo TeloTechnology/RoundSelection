@@ -33,11 +33,6 @@ use_frameworks!
 pod 'RoundSelection'
 ```
 
-#### Swift Packages
-You can use [Swift Packages](https://developer.apple.com/documentation/swift_packages).
-```website
-https://github.com/TeloTechnology/RoundSelection
-```
 #### Import after installation
 To get the full benefits import `RoundSelection`.
 
