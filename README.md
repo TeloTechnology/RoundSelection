@@ -20,8 +20,8 @@ This RoundSelection library helps you to do round selection.
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 11.0+
+- Xcode 12.x
+- Swift 5.x
 
 ## Installation
 
@@ -32,7 +32,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `RoundSelection` by ad
 ```ruby
 platform :ios, '15.0'
 use_frameworks!
-pod 'RoundSelection'
+pod 'RoundSelection', :git => 'https://github.com/TeloTechnology/RoundSelection.git', :tag => '1.0.0'
 ```
 
 #### Import after installation
