@@ -1,4 +1,5 @@
 # Round Selection
+
 > This library gives you round buttons to be used in your projects.
 
 [![Swift Version][swift-image]][swift-url]
@@ -9,7 +10,7 @@
 
 This RoundSelection library helps you to do round selection.
 
-<kbd><img src="Images/example1.png" width="200">  <img src="Images/example2.png" width="200"></kbd>
+<kbd><img src="Images/example1.png" width="200"> <img src="Images/example2.png" width="200"></kbd>
 
 ## Features
 
@@ -25,23 +26,27 @@ This RoundSelection library helps you to do round selection.
 ## Installation
 
 #### CocoaPods
+
 You can use [CocoaPods](http://cocoapods.org/) to install `RoundSelection` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '11.0'
+platform :ios, '15.0'
 use_frameworks!
 pod 'RoundSelection'
 ```
 
 #### Import after installation
+
 To get the full benefits import `RoundSelection`.
 
-``` swift
+```swift
 import RoundSelection
 ```
+
 #### Manually
-1. Download and drop ```RoundSelection``` folder in your project.  
-2. Congratulations!  
+
+1. Download and drop `RoundSelection` folder in your project.
+2. Congratulations!
 
 ## Usage example
 
@@ -94,4 +99,4 @@ Telo Technology Limited – [@Website](https://telotechnology.com)
 [bitrise-url]: https://app.bitrise.io/app/568f8ac0a61af5ec
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[cocoapods-image]:https://img.shields.io/badge/pod-1.8.3-blueviolet.svg
+[cocoapods-image]: https://img.shields.io/badge/pod-1.11.3-blueviolet.svg
