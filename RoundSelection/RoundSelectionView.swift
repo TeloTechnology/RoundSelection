@@ -112,18 +112,17 @@ public class RoundSelectionView: UIView {
     // MARK: - Setup
     
     private func setup() {
-        title.subscribe { [weak self] in
+        title.subscribe({ [weak self] in
             self?.titleLabel.text = $0.element
-        }.disposed(by: dispose)
+        }).disposed(by: dispose)
         
-        image.subscribe { [weak self] in
+        image.subscribe({ [weak self] in
             self?.icon.image = $0.element
-        }.disposed(by: dispose)
+        }).disposed(by: dispose)
         
-        self.rx
-            .tapGesture()
+        self.rx.tapGesture()
             .when(.recognized)
-            .map { _ in self.isSelected }
+            .map({ _ in self.isSelected })
             .subscribe(onNext: { [weak self] in
                 if let isSelected = self?.isSelected {
                     self?.isSelected = !isSelected
